@@ -38,6 +38,7 @@ if (!int.TryParse(Console.ReadLine(), out n1))
         Console.WriteLine("El valor que ha ingresado no es un numero");   
     }else{
         int valor;
+        do{
         Console.WriteLine("-------CALCULADORA-------");
         Console.WriteLine("(1)Sumar");
         Console.WriteLine("(2)Restar");
@@ -79,6 +80,7 @@ if (!int.TryParse(Console.ReadLine(), out n1))
                 break;
             }
         }
+        }while(valor!=0);
     }
         
 }
