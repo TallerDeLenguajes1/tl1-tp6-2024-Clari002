@@ -25,3 +25,5 @@ if (!int.TryParse(Console.ReadLine(),out num))
     }
     Console.WriteLine("Valor invertido: "+ numInvertido);
 }
+
+//punto 4
